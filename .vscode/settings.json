@@ -6,6 +6,7 @@
     "nosetests",
     "pipenv",
     "Pipfile",
+    "popleft",
     "pybuilder",
     "pycache",
     "pyenv",

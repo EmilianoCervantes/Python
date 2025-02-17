@@ -59,3 +59,6 @@ print("rounded price: round(final_price, 3) =", round(final_price, 3))
 print("rounded price: round(final_price, 2) =", round(final_price, 2))
 print(" ----- ")
 print(" ----- ")
+string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
+non_null = string1 or string2 or string3
+print(f"Using 'or' to get a non-empty string: {non_null}")
