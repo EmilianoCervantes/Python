@@ -16,5 +16,13 @@
     "pytype",
     "sdist",
     "venv"
-  ]
+  ],
+  "editor.minimap.autohide": true,
+  "files.autoSave": "onFocusChange",
+  "git.untrackedChanges": "separate",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+  }
 }

@@ -1,13 +1,13 @@
 class Point:
-  def __init__(self, x, y):
-    self.x = x
-    self.y = y
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
 
-def print_point(point: Point = Point(0,0)):
+def print_point(point: Point = Point(0, 0)):
     """
     def print_point(point: tuple = (0,0)): # What would happen if we do this instead of the line 7?
-    
+
     The result would be "Not a point".
 
     Why?
@@ -24,11 +24,12 @@ def print_point(point: Point = Point(0,0)):
         case _:
             print("Not a point")
 
+
 def cheese_shop(kind, *arguments, **keywords):
     """
     call with arguments unpacked from a list,
     *packed_arguments = unpacked arguments.
-    
+
     And we also have a dictionary in the call,
     dictionaries can deliver keyword arguments with the **-operator
     """
@@ -43,9 +44,12 @@ def cheese_shop(kind, *arguments, **keywords):
         print(kw, ":", keywords[kw])
 
 # Lambda function:
+
+
 def make_incrementor(n: int) -> int:
     print(f"make_incrementor > n: {n}")
     return lambda x: x + n
+
 
 test_coordinate = 56789
 
@@ -68,10 +72,10 @@ print(" ----- " * 10)
 print()
 
 cheese_shop("Limburger", "It's very runny, sir.",
-           "It's really very, VERY runny, sir.",
-           shopkeeper="Michael Plain",
-           client="John Cheese",
-           sketch="Cheese Shop Sketch")
+            "It's really very, VERY runny, sir.",
+            shopkeeper="Michael Plain",
+            client="John Cheese",
+            sketch="Cheese Shop Sketch")
 
 print(" ----- " * 10)
 
